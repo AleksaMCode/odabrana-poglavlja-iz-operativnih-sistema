@@ -12,6 +12,7 @@ namespace Mapper
             string line;
             while((line = Console.ReadLine()) != null)
             {
+                line = line.Trim();
                 int len = split = line.Split(" ").Length;
                 if(line.Length > 100)
                 {
