@@ -12,7 +12,7 @@ public class SalesCountryReducer extends MapReduceBase implements Reducer<IntWri
 		while(values.hasNext()) {
 			Text publication = (Text) values.next();
 			if (key.get() > 2018 && publication.toString().startsWith("On")) {
-				output.collect(t_key,value);
+				output.collect(key,value);
 			}
 		}
     }
