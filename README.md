@@ -4,7 +4,7 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
 * [2. kolokvijum](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/2-kolokvijum)
   * [7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad7.java)
   * [10. zadatak - spark](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad10%20-spark_solution.java)
-    * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad10.java)
+  * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad10.java)
 * [Ispit 31.01.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/31-01-2020)
   * [6. i 7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/31-01-2020/OPOS%20-solution%20-exam_31-01-2020%20-linux.sh)
 * [Ispit 14.02.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/14-02-2020)
