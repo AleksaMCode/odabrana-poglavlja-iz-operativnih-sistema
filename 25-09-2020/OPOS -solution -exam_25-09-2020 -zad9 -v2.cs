@@ -13,9 +13,9 @@ namespace Reducer
             List<Tuple<double, double>> pairs = new List<Tuple<double, double>>();
             List<Tuple<double, double>> newPairs = new List<Tuple<double, double>>();
 
-            while ((line = Console.ReadLine()) != "")
+            while ((line = Console.ReadLine()) != null)
             {
-                string[] twoValues = line.Split(' ');
+                string[] twoValues = line.Split('\t');
                 pairs.Add(new Tuple<double, double>(Convert.ToDouble(twoValues[0]), Convert.ToDouble(twoValues[1])));
             }
             pairs = pairs.Where(pair => pair.Item1 >= 0 && pair.Item1 < 100_000).OrderBy(pair => pair.Item1).ToList(); // key filtering + ascending sort by key value
