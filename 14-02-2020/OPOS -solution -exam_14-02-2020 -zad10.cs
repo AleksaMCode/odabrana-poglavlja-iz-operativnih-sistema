@@ -12,9 +12,8 @@ namespace Reducer
         static void Main(string[] args)
         {
             string line;
-            List<Tuple<string, string>> pairs = new List<Tuple<string, string>>();
 
-            while ((line = Console.ReadLine()) != "")
+            while ((line = Console.ReadLine()) != null)
             {
                 line = line.Trim();
                 Regex rgx = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
