@@ -23,6 +23,8 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
 * [Ispit 25.09.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/25-09-2020)
   * [6. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad6.sh)
   * [9. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad9.cs)
+* [Ispit 16.10.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/16-10-2020)
+  * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad10.cs)
 
 ## Napomena
 Rješenja zadataka mogu sadržati greške. Sve greške možete prijaviti putem [email-a](mailto:aleksamcode@gmail.com?subject=[GitHub]).
