@@ -12,7 +12,6 @@ namespace Reducer
         static void Main(string[] args)
         {
             string line;
-            List<Tuple<string, string>> pairs = new List<Tuple<string, string>>();
 
             while ((line = Console.ReadLine()) != "")
             {
