@@ -61,7 +61,8 @@ namespace Reducer
                 }
                 count = pairs.Count();
             }
-
+            
+            newPairs = newPairs.OrderBy(pair => pair.Item1).ToList(); // ascending sort by key value
             foreach (Tuple<double, double> pair in newPairs)
             {
                 Console.WriteLine("{0}\t{1}", pair.Item1, pair.Item2);
