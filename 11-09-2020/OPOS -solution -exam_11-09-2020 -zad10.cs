@@ -13,7 +13,7 @@ namespace Reducer
         {
             string line;
 
-            while ((line = Console.ReadLine()) != "")
+            while ((line = Console.ReadLine()) != null)
             {
                 line = line.Trim();
                 Regex rgx = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
