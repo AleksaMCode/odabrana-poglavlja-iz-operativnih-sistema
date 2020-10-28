@@ -14,9 +14,9 @@ namespace Reducer
             List<Tuple<double, double>> newPairs = new List<Tuple<double, double>>();
 
 
-            while ((line = Console.ReadLine()) != "")
+            while ((line = Console.ReadLine()) != null)
             {
-                string[] twoValues = line.Trim().Split(' ');
+                string[] twoValues = line.Trim().Split('\t');
                 pairs.Add(new Tuple<double, double>(Convert.ToDouble(twoValues[0]), Convert.ToDouble(twoValues[1])));
             }
             pairs = pairs.OrderBy(pair => pair.Item1).ToList(); // ascending sort by key value
