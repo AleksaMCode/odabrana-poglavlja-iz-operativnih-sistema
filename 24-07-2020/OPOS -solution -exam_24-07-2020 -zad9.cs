@@ -15,27 +15,30 @@ namespace Reducer
             while ((line = Console.ReadLine()) != null)
             {
                 string[] twoValues = line.Trim().Split('\t');
-                pairs.Add(Convert.ToDouble(twoValues[1]), Convert.ToDouble(twoValues[2]));
+                pairs.Add(new Tuple<double,double>(Convert.ToDouble(twoValues[0]), Convert.ToDouble(twoValues[1])));
             }
-            pairs = pairs.OrderBy(pair => pair.Item1); // ascending sort by key value
+            pairs = pairs.OrderBy(pair => pair.Item1).ToList(); // ascending sort by key value
+            
             double max = pairs[pairs.Count - 1].Item1;
-
             double n = pairs[0].Item1;
 
-            while (n <= max)
+            while (n < max)
             {
-                var temp = pairs.Where(pair => pair.Item1 >= n && pair.Item1 < n + 1.0).ToList(); // finding keys in range [n,n+1)
-                double averageValue = temp.Sum(pair => pair.Item2);
-                averageValue /= temp.Count;
-
-                pairs = pairs.Select(pair =>
+                var keysInRange = pairs.Where(pair => pair.Item1 >= n && pair.Item1 < n + 1.0).ToList(); // finding keys in range [n,n+1)
+                if(keysInRange.Count == 1)
                 {
-                    if (pair.Item1 >= n && pair.Item1 < n + 1.0)
-                    {
-                        pair.Item2 = averageValue;
-                    }
-                    return pair;
-                }).ToList();
+                    n += 1.0;
+                    continue;
+                }
+                double averageValue = keysInRange.Sum(pair => pair.Item2) / keysInRange.Count;
+                
+                pairs = pairs.Except(keysInRange).ToList();
+                foreach(var element in keysInRange)
+                {
+                    pairs.Add(new Tuple<double, double>(element.Item1, averageValue));
+                }
+                pairs = pairs.OrderBy(pair => pair.Item1).ToList(); // ascending sort by key value
+
                 n += 1.0;
             }
 
