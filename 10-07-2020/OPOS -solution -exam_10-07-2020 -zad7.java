@@ -6,7 +6,7 @@ public class Main {
         Dictionary<int, int> resF1 = new Dictionary<int, int>();
         Dictionary<int, int> resF2 = new Dictionary<int, int>();
         Dictionary<int, int> resF3 = new Dictionary<int, int>();
-        //Jasno je na osnovu teksta zadatka da se F1 mora izvrsiti za vrijednosti[1, 200]u sklopu poziva F2 i F3
+        //Jasno je na osnovu teksta zadatka da se F1 mora izvrsiti za vrijednosti[1, 200] u sklopu poziva F2 i F3
         for (int i = 1; i <= 200; ++i) {
             if (tasks.Size() < 4) { //FaaS klaster omogucuje konkurentno izvrsavanje max. 4 funkcije
                 try {
