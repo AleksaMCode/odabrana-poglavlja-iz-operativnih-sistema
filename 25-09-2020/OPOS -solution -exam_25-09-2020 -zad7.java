@@ -12,7 +12,7 @@ public class Main {
                 try {
                     tasks.Add(ScheduleAsync(f1(4), i)); // int f1(int) <- 4 sec.
                 } catch (Exception e) {
-                    System.out.println("F1 - value " + i + " -> cluster busy");
+                    System.out.println("f1 - value " + i + " -> cluster busy");
                 }
             } else {
                 for (Task task : tasks) {
@@ -21,13 +21,13 @@ public class Main {
                 tasks.Clear();
             }
 
-            //F2 izracunavanje na osnovu F1
+            //f2 izracunavanje na osnovu f1
             if (i >= 1080 && i <= 1105) {
                 if (tasks.Size() < 2) {
                     try {
                         tasks.Add(ScheduleAsync(f2(8), resF1[i])); // int f2(int) <- 8 sec.
                     } catch (Exception e) {
-                        System.out.println("F2 - value " + i + " -> cluster busy");
+                        System.out.println("f2 - value " + i + " -> cluster busy");
                     }
                 } else {
                     for (Task task : tasks) {
