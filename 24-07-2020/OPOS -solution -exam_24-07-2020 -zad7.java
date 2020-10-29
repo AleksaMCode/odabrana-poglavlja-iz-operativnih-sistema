@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         List<Task> tasks = new List<Task>();
 
-        //Rezultati funkcija - da ne bi dolazilo do duplih poziva F2 i F3 cuvamo rezulate u Dictionary
+        //Rezultati funkcija
         Dictionary<int, int> resF1 = new Dictionary<int, int>();
         Dictionary<int, int> resF2 = new Dictionary<int, int>();
 
