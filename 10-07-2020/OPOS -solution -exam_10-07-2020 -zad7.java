@@ -12,7 +12,7 @@ public class Main {
                 try {
                     tasks.Add(ScheduleAsync(F1, i));
                 } catch (Exception e) {
-                    System.out.println("F1 - value " + i + "-> cluster busy");
+                    System.out.println("F1 - value " + i + " -> cluster busy");
                 }
             } else {
                 for (Task task : tasks) {
@@ -26,7 +26,7 @@ public class Main {
                 try {
                     tasks.Add(ScheduleAsync(F2, resF1[i]));
                 } catch (Exception e) {
-                    System.out.println("F1 - value " + i + "-> cluster busy");
+                    System.out.println("F2 - value " + i + " -> cluster busy");
                 }
             } else {
                 for (Task task : tasks) {
@@ -40,7 +40,7 @@ public class Main {
                 try {
                     tasks.Add(ScheduleAsync(F3, resF3[i]));
                 } catch (Exception e) {
-                    System.out.println("F1 - value " + i + "-> cluster busy");
+                    System.out.println("F3 - value " + i + " -> cluster busy");
                 }
             } else {
                 for (Task task : tasks) {
