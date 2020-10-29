@@ -26,10 +26,11 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
   * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/11-09-2020/OPOS%20-solution%20-exam_11-09-2020%20-zad10.cs)
 * [Ispit 25.09.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/25-09-2020)
   * [6. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad6.sh)
+  * [7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad6.sh)
   * [9. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad9.cs)
     * [9. zadatak - 2. način](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad9%20-v2.cs)
 * [Ispit 16.10.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/16-10-2020)
-  * [7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad7.sh)
+  * [7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad7.java)
   * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad10.cs)
 
 ## Napomena
