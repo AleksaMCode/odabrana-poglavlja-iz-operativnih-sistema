@@ -6,7 +6,6 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
   * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad10.java)
     * [10. zadatak - spark rjesenje](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad10%20-spark_solution.java)
     * [10. zadatak - hadoop streaming rjesenje](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad10%20-hadoop_streaming.cs)
-
 * [Ispit 31.01.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/31-01-2020)
   * [6. i 7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/31-01-2020/OPOS%20-solution%20-exam_31-01-2020%20-linux.sh)
   * [9. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/31-01-2020/OPOS%20-solution%20-exam_31-01-2020%20-zad9.cs)
