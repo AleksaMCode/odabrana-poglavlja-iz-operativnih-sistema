@@ -22,17 +22,19 @@ public class Main {
             }
 
             //F2 izracunavanje na osnovu F1
-            if ((i >= 80 && i <= 105) && tasks.Size() < 3) {
-                try {
-                    tasks.Add(ScheduleAsync(F2, resF1[i]));
-                } catch (Exception e) {
-                    System.out.println("F2 - value " + i + " -> cluster busy");
+            if (i >= 80 && i <= 105) {
+                if (tasks.Size() < 3) {
+                    try {
+                        tasks.Add(ScheduleAsync(F2, resF1[i]));
+                    } catch (Exception e) {
+                        System.out.println("F2 - value " + i + " -> cluster busy");
+                    }
+                } else {
+                    for (Task task : tasks) {
+                        resF2.Add(i, Wait(task));
+                    }
+                    tasks.Clear();
                 }
-            } else {
-                for (Task task : tasks) {
-                    resF2.Add(i, Wait(task));
-                }
-                tasks.Clear();
             }
         }
     }
