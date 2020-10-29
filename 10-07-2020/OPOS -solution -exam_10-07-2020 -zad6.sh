@@ -3,10 +3,10 @@ ls *.tap -1 > tap.list
 i=1 #counter
 while IFS= read -r tap_file
 do
-	$tap_file > Tapatap -o file$i.tap
+	Tapatap -o file$i.bin < $tap_file
 	let i++
 done < tap.list
 
 for((j=1;j<i;j++));do
-	./file$i.tap &
+	./file$i.bin &
 done < tap.list
