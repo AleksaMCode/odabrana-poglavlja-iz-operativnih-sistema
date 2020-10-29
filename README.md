@@ -27,6 +27,7 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
   * [9. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad9.cs)
     * [9. zadatak - 2. način](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/25-09-2020/OPOS%20-solution%20-exam_25-09-2020%20-zad9%20-v2.cs)
 * [Ispit 16.10.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/16-10-2020)
+  * [7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad7.sh)
   * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad10.cs)
 
 ## Napomena
