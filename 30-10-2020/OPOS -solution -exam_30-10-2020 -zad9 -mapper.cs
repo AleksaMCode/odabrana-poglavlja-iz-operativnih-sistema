@@ -14,8 +14,7 @@ namespace Mapper
 
             while ((line = Console.ReadLine()) != null)
             {
-                string line = line2.Trim();
-                line = line.Replace(",", "").Replace(".", "").ToLower();
+                line = line.Trim().Replace(",", "").Replace(".", "").ToLower();
                 string[] words = line.Split(' ');
                 foreach (string word in words)
                 {
