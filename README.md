@@ -34,6 +34,7 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
   * [8. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad8.java)
   * [10. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/16-10-2020/OPOS%20-solution%20-exam_16-10-2020%20-zad10.cs)
 * [Ispit 30.10.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/30-10-2020)
+  * [6. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/30-10-2020/OPOS%20-solution%20-exam_30-10-2020%20-zad6.sh)
   * [9. zadatak -mapper](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/30-10-2020/OPOS%20-solution%20-exam_30-10-2020%20-zad9%20-mapper.cs)
   * [9. zadatak -reducer](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/30-10-2020/OPOS%20-solution%20-exam_30-10-2020%20-zad9%20-reducer.cs)
 
