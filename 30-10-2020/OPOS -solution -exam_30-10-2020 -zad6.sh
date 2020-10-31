@@ -1,5 +1,4 @@
 #!/bin/bash
-ls *.tap -1 > kripl.list
 i=1
 for kripl_file in $(ls *.krrr)
 do
