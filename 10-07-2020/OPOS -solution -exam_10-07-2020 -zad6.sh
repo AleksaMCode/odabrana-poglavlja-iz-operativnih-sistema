@@ -4,6 +4,7 @@ i=1 #counter
 while IFS= read -r tap_file
 do
 	Tapatap -o file$i.bin < $tap_file
+	chmod +x file$i.bin
 	let i++
 done < tap.list
 
