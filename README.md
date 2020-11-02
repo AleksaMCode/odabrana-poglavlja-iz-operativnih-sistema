@@ -40,4 +40,4 @@ Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektro
   * [9. zadatak -reducer](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/30-10-2020/OPOS%20-solution%20-exam_30-10-2020%20-zad9%20-reducer.cs)
 
 ## Napomena
-Rješenja zadataka mogu sadržati greške. Sve greške možete prijaviti putem [email-a](mailto:aleksamcode@gmail.com?subject=[GitHub]).
+Rješenja zadataka mogu sadržati greške. Sve greške možete prijaviti putem [email-a](mailto:aleksamcode@gmail.com?subject=[GitHub-OPOS-greska]).
