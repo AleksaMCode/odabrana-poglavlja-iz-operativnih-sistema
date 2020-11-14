@@ -1,5 +1,5 @@
 # Odabrana poglavlja iz operativnih sistema
-Rjesenje rokova iz predmeta Odabrana poglavlja iz operativnih sistema na Elektrotehničkom fakultetu u Banjoj Luci.
+Rjesenje rokova iz predmeta *Odabrana poglavlja iz operativnih sistema* na Elektrotehničkom fakultetu u Banjoj Luci.
 * [1. kolokvijum - 11.05.2020.](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/1-kolokvijum)
 * [2. kolokvijum](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/tree/main/2-kolokvijum)
   * [7. zadatak](https://github.com/AleksaMCode/odabrana-poglavlja-iz-operativnih-sistema/blob/main/2-kolokvijum/OPOS%20-solution%20-2nd_midterm%20-zad7.java)
